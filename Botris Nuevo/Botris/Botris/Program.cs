@@ -13,6 +13,10 @@ var builder = WebApplication.CreateBuilder(args);
 //// Add services to the container.
 //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 //    .AddMicrosoftIdentityWebApi(builder.Configuration.GetSection("AzureAd"));
+//AGREGAR LOS CORS
+builder.Services.AddCors(options => options.AddPolicy("AllowWebapp",
+    builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+
 builder.Services.AddDbContext<AplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Conexion"));
@@ -73,7 +77,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+//IMPLEMENTAR EL CORS
+app.UseCors("AllowWebapp");
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

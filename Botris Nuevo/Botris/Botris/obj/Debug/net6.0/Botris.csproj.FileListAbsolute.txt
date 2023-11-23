@@ -512,3 +512,10 @@ C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\obj\Debug\net
 C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\obj\Debug\net6.0\Botris.csproj.CopyComplete
 C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\obj\Debug\net6.0\Botris.genruntimeconfig.cache
 C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\obj\Debug\net6.0\ref\Botris.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\EPPlus.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\EPPlus.Interfaces.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Alejandro\Desktop\Botris Nuevo\Botris Nuevo\Botris\Botris\bin\Debug\net6.0\ExcelDataReader.dll

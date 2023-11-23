@@ -31,7 +31,7 @@ namespace Botris.Models
                     };
                 }
                 var id= identity.Claims.FirstOrDefault(x=> x.Type=="id").Value;
-                var ingreso = context.Usuarios.FirstOrDefault(x => x.Id == Int16.Parse(id));
+                var ingreso = context.Usuarios.FirstOrDefault(x => x.id == Guid.Parse( id));
                 return new
                 {
                     success = true,
